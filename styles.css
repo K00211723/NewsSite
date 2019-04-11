@@ -1,0 +1,882 @@
+.navigation a {
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navigation li:last-of-type a {
+    border-bottom: none;
+}
+
+.navigation {
+    list-style: none;
+    margin: 0;
+    background: deepskyblue;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: flex-end;
+}
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+}
+.navigation a:hover {
+    background: #00b7f5;
+}
+@media screen and (min-width:0px) and (max-width: 600px) {
+    .navigation {
+        -webkit-flex-flow: column wrap;
+        flex-flow: column wrap;
+        padding: 0;
+    }
+    
+    div#wrapper {
+        width: 400px;
+    }
+    div#nav {
+        background-color: #CCCCCC;
+    }
+    div#nav ul {
+        list-style-type: none;
+        margin: 0;
+        height: 200px;
+        width: 100%;
+        background-color: #CCCCCC;
+    }
+    div#nav li {
+        width: 10%;
+        float: none;
+        display: inline-block;
+        background-color: #CCCCCC;
+    }
+    div#logo img {
+        width: 200px;
+        height: 150px;
+        margin-left: 25%;
+        clear: none;
+        float: left;
+    }
+    div#nav {
+        float: left;
+        margin-bottom: 10px;
+        height: 180px;
+        width: 100%;
+        background-color: #CCCCCC;
+    }
+    div#nav ul {
+        width: 100%;
+        height: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 1px;
+        background-color: #CCCCCC;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    div#nav ul li {
+        width: 300px;
+        display: block;
+        margin-left: 12%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    div#content {
+        width: auto;
+    }
+    div#suggest {
+        border: 3px;
+        height: 100;
+        width: 100%;
+        float: right;
+        border-style: solid;
+        text-align: center;
+    }
+    div#featured {
+        border: 3px;
+        height: 100;
+        width: 100%;
+        float: right;
+        border-style: solid;
+        text-align: center;
+        margin-left: 10px;
+    }
+    div#footer {
+        text-align: center;
+        clear: both;
+    }
+    div#header {
+        width: auto;
+        height: 200px;
+    }
+    div#name {
+        width: 100%;
+        float: right;
+    }
+    div#searchBar {
+        width: 100%;
+        height: auto;
+        float: right;
+    }
+    div#SPict {
+        position: relative;
+    }
+    div#SPict .overText {
+        position: absolute;
+        top: 1px;
+        left: 0px;
+    }
+    div#FPict {
+        position: relative;
+    }
+    div#featured {
+        position: relative;
+    }
+    div#SPict {
+        position: relative;
+    }
+    div#SPict .overText {
+        position: absolute;
+        top: 70px;
+        left: 65px;
+    }
+    div#FPict .overText2 {
+        position: absolute;
+        top: 70px;
+        left: 100px;
+    }
+    div#SPict img {
+        height: auto;
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    div#SPict h2 {
+        color: #B00909;
+        font-size: 50px
+    }
+    div#SPict h1 {
+        color: #FFFFFF;
+        font-size: 30px;
+    }
+    div#FPict img {
+        height: auto;
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    div#FPict h2 {
+        color: #B00909;
+        font-size: 50px
+    }
+    div#FPict h1 {
+        color: #FFFFFF;
+        font-size: 30px;
+    }
+    div#gif {
+        background-color: #CCCCCC;
+    }
+    div#gif img {
+        margin-top: 5px;
+        width: 100%;
+        float: left;
+    }
+    div#gif h1 {
+        text-align: center;
+        color: #990000;
+    }
+    div#contentW {
+        float: left;
+        width: 100%;
+        background-color: #CCCCCC;
+        height: 850px;
+    }
+    div#TextW ul {
+        width: 90%;
+        height: 500px;
+        float: left;
+        margin-top: 8px;
+        text-align: left;
+        list-style: none;
+        background-color: #CCCCCC;
+    }
+    div#TextW p {
+        margin-right: auto;
+        width: 100%;
+        height: 400px;
+        background-color: #cccccc;
+    }
+    div#Highlight {
+        width: 100%;
+        height: 25%;
+        float: left;
+    }
+    div#Highlight img {
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 25%;
+        float: left;
+    }
+    div#N1 {
+        width: 100%;
+        height: 25%;
+        background-color: #CCCCCC;
+        text-align: center;
+        float: left;
+    }
+    div#N1 img {
+        margin-top: 20px;
+        margin-left: 5px;
+        width: 1%;
+        float: left;
+    }
+    div#N2 {
+        float: left;
+        background-color: #CCCCCC;
+        text-align: center;
+    }
+    div#N2 img {
+        margin-top: 20px;
+        margin-left: 5px;
+        width: 0%;
+        float: left;
+    }
+    div#N3 {
+        float: left;
+        background-color: #CCCCCC;
+        text-align: center;
+    }
+    div#N3 img {
+        width: 0%;
+        float: left;
+    }
+    div#Highlight {
+        height: 200px;
+        background-color: #CCCCCC;
+        text-align: center;
+    }
+    div#Highlight a {
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#N1 a {
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#N2 a {
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#N3 a {
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#Highlight a:hover {
+        text-decoration: none;
+        color: #B00909;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#N1 a:hover {
+        text-decoration: none;
+        color: #B00909;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#N2 a:hover {
+        text-decoration: none;
+        color: #B00909;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#N3 a:hover {
+        text-decoration: none;
+        color: #B00909;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#nav ul li a:hover {
+        text-decoration: none;
+        padding: 5px 5px;
+        color: #B00909;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width: 1000px) {
+    .navigation {
+        justify-content: space-around;
+    }
+    div#wrapper {
+        width: 800px;
+    }
+    div#nav {
+        background-color: #CCCCCC;
+        height: 100px;
+    }
+    div#nav ul {
+        list-style-type: none;
+        margin: 0;
+        height: 100px;
+        width: 100%;
+        background-color: #CCCCCC;
+        text-align: center;
+    }
+    div#nav li {
+        width: 20%;
+        float: left;
+        display: inline-block;
+        background-color: #CCCCCC;
+        margin-left: 2px;
+    }
+    div#logo img {
+        width: 300px;
+        height: 200px;
+        margin-left: 25%;
+        clear: none;
+        float: left;
+    }
+    div#nav {
+        float: left;
+        margin-bottom: 10px;
+        height: 180px;
+        width: 100%;
+        background-color: #CCCCCC;
+    }
+    div#nav ul {
+        width: 100%;
+        height: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 1px;
+        background-color: #CCCCCC;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    div#nav ul li {
+        width: 300px;
+        display: block;
+        margin-left: 12%;
+        margin-top: 10px;
+        text-align: center;
+    }
+    div#content {
+        width: auto;
+    }
+    div#suggest {
+        border: 3px;
+        height: 100;
+        width: 100%;
+        float: right;
+        border-style: solid;
+        text-align: center;
+    }
+    div#featured {
+        border: 3px;
+        height: 100;
+        width: 100%;
+        float: right;
+        border-style: solid;
+        text-align: center;
+        margin-left: 10px;
+    }
+    div#footer {
+        text-align: center;
+        clear: both;
+    }
+    div#header {
+        width: auto;
+        height: 200px;
+    }
+    div#name {
+        width: 100%;
+        float: right;
+    }
+    div#searchBar {
+        width: 100%;
+        height: auto;
+        float: right;
+    }
+    div#SPict {
+        position: relative;
+    }
+    div#SPict .overText {
+        position: absolute;
+        top: 180px;
+        left: 260px;
+    }
+    div#FPict {
+        position: relative;
+    }
+    div#featured {
+        position: relative;
+    }
+    div#SPict {
+        position: relative;
+    }
+    div#SPict .overText {
+        position: absolute;
+        top: 230px;
+        left: 270px;
+    }
+    div#FPict .overText2 {
+        position: absolute;
+        top: 230px;
+        left: 300px;
+    }
+    div#SPict img {
+        height: auto;
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    div#SPict h2 {
+        color: #B00909;
+        font-size: 50px
+    }
+    div#SPict h1 {
+        color: #FFFFFF;
+        font-size: 30px;
+    }
+    div#FPict img {
+        height: auto;
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    div#FPict h2 {
+        color: #B00909;
+        font-size: 50px
+    }
+    div#FPict h1 {
+        color: #FFFFFF;
+        font-size: 30px;
+    }
+    div#gif {
+        background-color: #CCCCCC;
+    }
+    div#gif img {
+        margin-top: 5px;
+        width: 100%;
+        float: left;
+    }
+    div#gif h1 {
+        text-align: center;
+        color: #990000;
+    }
+    div#contentW {
+        float: left;
+        width: 100%;
+        background-color: #CCCCCC;
+    }
+    div#TextW ul {
+        width: 95%;
+        height: ;
+        float: left;
+        margin-top: px;
+        text-align: left;
+        list-style: none;
+        background-color: #CCCCCC;
+    }
+    div#TextW p {
+        margin-right: auto;
+        width: 100%;
+        background-color: #CCCCCC;
+    }
+    div#Highlight {
+        width: 100%;
+        height: 25%;
+        float: left;
+    }
+    div#Highlight img {
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 25%;
+        float: left;
+    }
+    div#N1 {
+        width: 100%;
+        height: 25%;
+        background-color: #CCCCCC;
+        text-align: center;
+        float: left;
+    }
+    div#N1 img {
+        margin-left: 5px;
+        width: 15%;
+        float: left;
+    }
+    div#N2 {
+        float: left;
+        background-color: #CCCCCC;
+        text-align: center;
+    }
+    div#N2 img {
+        margin-top: 20px;
+        margin-left: 5px;
+        width: 15%;
+        float: left;
+    }
+    div#N3 {
+        float: left;
+        background-color: #CCCCCC;
+        text-align: center;
+    }
+    div#N3 img {
+        width: 15%;
+        float: left;
+    }
+    div#Highlight {
+        height: 200px;
+        background-color: #CCCCCC;
+        text-align: center;
+    }
+    div#Highlight a {
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#N1 a {
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#N2 a {
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#N3 a {
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#Highlight a:hover {
+        text-decoration: none;
+        color: #B00909;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#N1 a:hover {
+        text-decoration: none;
+        color: #B00909;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#N2 a:hover {
+        text-decoration: none;
+        color: #B00909;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#N3 a:hover {
+        text-decoration: none;
+        color: #B00909;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#nav ul li a:hover {
+        text-decoration: none;
+        padding: 5px 5px;
+        color: #B00909;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width:1001px) {
+    div#wrapper {
+        width: 1000px;
+    }
+    div#logo img {
+        width: 33%;
+        height: 150px;
+        margin: 10px;
+        clear: none;
+        float: left;
+    }
+    div#nav {
+        width: 100%;
+        height: 5%;
+        background-color: #CCCCCC;
+    }
+    div#nav ul {
+        width: 99%;
+        height: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 5px;
+        background-color: #CCCCCC;
+        text-align: center;
+    }
+    div#nav ul li {
+        display: inline;
+        margin: 070px;
+        text-align: center;
+    }
+    div#content {
+        width: auto;
+    }
+    div#suggest {
+        border: 3px;
+        height: 367px;
+        width: 49%;
+        float: left;
+        border-style: solid;
+        text-align: center;
+    }
+    div#featured {
+        border: 3px;
+        height: 367px;
+        width: 49%;
+        float: right;
+        border-style: solid;
+        text-align: center;
+    }
+    div#footer {
+        text-align: center;
+        clear: both;
+    }
+    div#header {
+        width: auto;
+        height: 200px;
+    }
+    div#name {
+        width: 33%;
+        float: right;
+    }
+    div#searchBar {
+        width: 33%;
+        height: auto;
+        float: right;
+    }
+    div#SPict img {
+        height: auto;
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    div#SPict {
+        position: relative;
+    }
+    div#SPict .overText {
+        position: absolute;
+        top: 100px;
+        left: 105px;
+    }
+    div#SPict h2 {
+        color: #B00909;
+        font-size: 50px;
+    }
+    div#SPict h1 {
+        color: #FFFFFF;
+        font-size: 30px;
+    }
+    div#FPict {
+        position: relative;
+    }
+    div#featured {
+        position: relative;
+    }
+    div#FPict .overText2 {
+        position: absolute;
+        top: 100px;
+        left: 155px;
+    }
+    div#FPict img {
+        height: auto;
+        width: 100%;
+        float: left;
+        position: relative;
+    }
+    div#FPict h2 {
+        color: #B00909;
+        font-size: 50px
+    }
+    div#FPict h1 {
+        color: #FFFFFF;
+        font-size: 30px;
+    }
+    div#gif {
+        background-color: #CCCCCC;
+    }
+    div#gif img {
+        margin-top: 5px;
+        width: 47%;
+        float: left;
+    }
+    div#gif h1 {
+        text-align: center;
+        color: #990000;
+    }
+    div#contentW {
+        width: 100%;
+        background-color: #CCCCCC;
+        height: 500px;
+    }
+    div#TextW ul {
+        width: 49%;
+        height: ;
+        float: right;
+        margin-top: -2px;
+        text-align: left;
+        list-style: none;
+        background-color: #CCCCCC;
+    }
+    div#TextW p {
+        margin-right: auto;
+        width: 100%;
+    }
+    div#Highlight img {
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 25%;
+        float: left;
+    }
+    div#N1 {
+        background-color: #CCCCCC;
+        text-align: center;
+    }
+    div#N1 img {
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 15%;
+        float: left;
+    }
+    div#N2 {
+        background-color: #CCCCCC;
+        text-align: center;
+    }
+    div#N2 img {
+        margin-top: 20px;
+        margin-left: 5px;
+        width: 15%;
+        float: left;
+    }
+    div#N3 {
+        background-color: #CCCCCC;
+        text-align: center;
+    }
+    div#N3 img {
+        margin-top: 20px;
+        margin-left: 5px;
+        width: 15%;
+        float: left;
+    }
+    div#Highlight {
+        height: 200px;
+        background-color: #CCCCCC;
+        text-align: center;
+    }
+    div#Highlight a {
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#N1 a {
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#N2 a {
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#N3 a {
+        text-decoration: none;
+        color: #FFFFFF;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#Highlight a:hover {
+        text-decoration: none;
+        color: #B00909;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#N1 a:hover {
+        text-decoration: none;
+        color: #B00909;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#N2 a:hover {
+        text-decoration: none;
+        color: #B00909;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#N3 a:hover {
+        text-decoration: none;
+        color: #B00909;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+    div#nav ul li a:hover {
+        text-decoration: none;
+        padding: 5px 5px;
+        color: #B00909;
+        background-color: #FFFFFF;
+        text-align: center;
+    }
+}
+
+div#wrapper {
+    background-color: #FFFFFF;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.logo {
+    height: 450px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: beige;
+    display: inline-block;
+    width: 240px;
+    padding: 10px;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+.thumb img {
+    width: 240px;
+    height: 240px;
+}
+
+div#nav li a {
+    text-decoration: none;
+    color: #F00909;
+}
+
+div#content {
+    background-color: #CCCCCC;
+}
